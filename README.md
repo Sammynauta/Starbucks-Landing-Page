@@ -11,7 +11,7 @@ Projeto DIO - StarBucks Clone
 
 <p align="center"><a href="https://www.starbucksathome.com/br/">StarBucks. Visite a page original.</a>
 
-#Participantes
+# Participantes
 [<img src="https://avatars.githubusercontent.com/u/78274299?s=460&u=ff8ad4d8a803bf74541ca2b3e40b85402496f657&v=4" width="75px;"/>](https://github.com/Sammynauta)
 
 [Sammynauta](https://github.com/Sammynauta)
