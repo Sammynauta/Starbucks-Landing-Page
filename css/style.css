@@ -138,7 +138,7 @@ display: flex;
     display: inline-block;
     margin: 0 20px;
     cursor: pointer;
-    transition: 0.5;
+    transition: .3s ease-in;
 }
 
 .thumb li:hover {
@@ -163,7 +163,7 @@ max-width: 80px;
 }
 
 .socialmidia li:hover {
-    transform: translateX(-15px)
+    transform: translateX(-5px)
 }
 
 .socialmidia li {
@@ -185,4 +185,103 @@ max-width: 80px;
     height: 100%;
     background: #017143;
     clip-path: circle(600px at right 800px);
+}
+
+@media (max-width: 950px) {
+
+    header {
+      padding: 20px;  
+    }
+
+    header .logo{
+        position: relative;
+        max-width: 60px;
+      }
+
+      header ul {
+          position: relative;
+          display: none;
+      }
+      header ul.navigation.active{
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background: #fff;
+          z-index: 10;
+
+      }
+      header ul li a{
+          font-size: 1.4em;
+          margin: 5px 0;
+      }
+      .toggle {
+          position: relative;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          background: url(/img/menu.png);
+          background-size: 30px;
+          background-position: center;
+          background-repeat: no-repeat;
+          filter: invert(1);
+          z-index: 11;
+      }
+      .toggle .active{
+          position: fixed;
+          right: 20px;
+          background: url(/img/close.png);
+          background-size: 25px;
+          background-position: center;
+          background-repeat: no-repeat;
+          filter: invert(1);
+      }
+      section {
+          padding: 20px 20px 120px;
+
+      }
+      .content {
+          flex-direction: column;
+          margin-top: 100px;
+      }
+      .content .textBox{
+         max-width: 100%; 
+      }
+      .content .textBox h2 {
+          font-size: 2.5em;
+          margin-bottom: 15px;
+      }
+      .content .imgBox {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .content .imgBox img{
+        max-width: 290px;
+      }
+
+      .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #017143;
+        clip-path: circle(400px at center bottom); 
+      }
+      .thumb li img{
+          max-width: 45px;
+      }
+      .socialmidia{
+          background: #017143;
+          right: 0;
+          width: 50px;
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 15px;
+      }
 }

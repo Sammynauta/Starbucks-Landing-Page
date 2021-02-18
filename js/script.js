@@ -8,3 +8,10 @@ function mudarCirculo(cor) {
     const circle = document.querySelector('.circle');
     circle.style.background = cor;
 }
+
+function toggleMenu() {
+    var navigation = document.querySelector('.navigation');
+    var menuToggle =document.querySelector('.toggle');
+    menuToggle.classList.toggle('active')
+    navigation.classList.toggle('active') 
+}
