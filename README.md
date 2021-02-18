@@ -1,2 +1,2 @@
 # Starbucks-Landing-Page
-Criando uma landing da StarBucks para fins de estudo.
+Criando uma landing Page da StarBucks para fins de estudo.
